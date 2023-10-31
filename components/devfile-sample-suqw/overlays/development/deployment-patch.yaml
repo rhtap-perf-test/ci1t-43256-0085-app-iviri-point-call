@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-suqw
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0085-tenant/ci1t-43256-0085-app/devfile-sample-suqw@sha256:fb6c68e3b3509bbab6c860efedad0f8094e21ab15964e6e448479e97c3d9514a
+        name: my-nodejs
+        resources: {}
+status: {}
